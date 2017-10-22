@@ -1,0 +1,717 @@
+#formcell {
+	height:400px;
+	text-align:center;
+	padding-left: 25px;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 1200px;
+	height: 700px;
+	background-size: 1250px;
+	font-family: Helvetica, Arial; 
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;	
+}
+
+#logo {
+	left: 350px;
+	top: 200px;
+	position: absolute;
+}
+
+#title {
+	left: 400px;
+	top: 65px;
+	position: absolute;
+	font-size: 20px;
+}
+
+#subheading {
+	padding-top: 100px;
+	width: 300px;
+	text-align: left;
+	position: absolute;
+	font-family: helvetica;
+	letter-spacing: 2px;
+	left: 585px;
+	top: 90px;
+	color: #fff;
+}
+
+#logosubheading {
+	padding-top: 10px;
+	width: 300px;
+	text-align: left;
+	position: absolute;
+	font-family: helvetica;
+	letter-spacing: 2px;
+	left: 585px;
+	top: 63px;
+	color: #FFB6C1;
+	font-size: 15px;
+}
+
+#shopcart {
+	left: 1130px;
+	top: 65px;
+	position: absolute;
+}
+
+#shipping {
+	padding-top: 10px;
+	width: 300px;
+	text-align: left;
+	position: absolute;
+	font-family: helvetica;
+	letter-spacing: 2px;
+	left: 50px;
+	top: 50px;
+	color: #ff1d8e;
+
+}
+
+#titlelogo {
+	left: 550px;
+	top: 30px;
+	position: absolute;
+}
+
+.carrotcake {
+	padding-right: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    width:1050px;
+	margin:0 auto;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #FFB6C1;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    width:180px; 
+}
+
+.topnav a:hover {
+    color: #FF1493;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#productdetailoriginal {
+	padding-top: 108px;
+	width: 1200px;
+	top: 90px;
+	padding-left: 240px;	
+}
+
+.classWithPad { 
+	margin:80px;
+}
+
+#productdescription {
+	top: 276px;
+	right: 280px;
+	width: 340px;
+	font-family: helvetica;
+	font-size: 17px;
+	line-height: 20px;
+	color: #FF1493;
+	position: absolute;	
+}
+.originalnametitle {
+
+}
+.originalnamesubheading {
+	color: #FFB6C1;
+	
+}
+.description {
+	color: #FFB6C1;
+	text-align: right;
+	font-size: 14px;
+	letter-spacing: .28px;
+	line-height: 20px;
+	
+}
+
+.productnav {
+    overflow: hidden;
+	width: 1180px;
+	position: right;
+	margin: -30x;
+	padding-top: 2px;
+
+}
+
+.productnav a {
+    float: left;
+    color: #FFB6C1;
+    text-align: center;
+    padding: -5px;
+    text-decoration: none;
+    font-size: 15px;
+    width:113.5px; 
+}
+
+.productnav a:hover {
+    color: #FF1493;
+}
+
+.productnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.productnav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.productimg1 {
+	margin: 10;
+
+}
+
+.productimg2 {
+	margin: 10;
+
+}
+
+.productimg3 {
+	margin: 10;
+	
+}
+
+.productimg4 {
+	margin: 10;
+
+}
+
+.productimg5 {
+	margin: 10;
+
+}
+
+.funnyproductnamesrow1 {
+	color: #FF1493;
+	margin: 20;
+
+}
+
+.funnyoriginal {
+	margin: 0;
+	
+}
+
+.funnybirthdaycake {
+	margin: 18;
+	
+}
+
+.funnypumpkinspice {
+	margin: 5;
+	
+}
+
+.funnybacon {
+	margin: 29;
+	
+}
+
+.funnywalnut {
+	margin: 16;
+	
+}
+
+.productimg6 {
+	margin: 10;
+
+}
+
+.productimg7 {
+	margin: 10;
+
+}
+
+.productimg8 {
+	margin: 10;
+
+}
+
+.shoppingcart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.productimg9 {
+	margin: 10;
+
+}
+
+.productimg10 {
+	margin: 10;
+
+}
+
+.funnyproductnamesrow2 {
+	color: #FF1493;
+	margin: 20;
+
+}
+
+.funnylemonlavendar {
+	margin: -3;
+	
+}
+
+.funnybuttermilk {
+	margin: 35;
+	
+}
+
+.funnyvegan {
+	margin: -12;
+	
+}
+
+.funnyglutenfree {
+	margin: 30;
+	
+}
+
+.funnycarrotcake {
+	margin: -12;
+	
+}
+
+.productimg11 {
+	margin: 10;
+
+}
+
+.productimg12 {
+	margin: 10;
+
+}
+
+.productimg13 {
+	margin: 10;
+
+}
+
+.productimg14 {
+	margin: 10;
+
+}
+
+.productimg15 {
+	margin: 10;
+
+}
+
+.funnyproductnamesrow3 {
+	color: #FF1493;
+	margin: 20;
+
+}
+
+.funnyrhubarb {
+	margin: -2;
+	
+}
+
+.funnycranberry {
+	margin: 54;
+	
+}
+
+.funnycaramel {
+	margin: -8;
+	
+}
+
+.funnymaple {
+	margin: 60;
+	
+}
+
+.funnyblackberry {
+	margin: -18;
+	
+}
+
+.shoppingcart {
+	width: 950px;
+	height: 600px;
+	margin: 20px auto;
+	background: #FFFFFF;
+	border-radius: 16px;
+
+}
+
+.wishlist {
+	width: 950px;
+	height: 900px;
+	margin: 20px auto;
+	background: #FFFFFF;
+	border-radius: 16px;
+
+}
+
+.title{
+	height: 20px;
+	margin-top: 84px;
+	border-bottom: 1px solid #E1E8EE;
+	padding: 20px 30px;
+	color: #ff1d8e;
+	font-size: 40px;
+	font-family: helvetica-bold;
+  
+}
+
+.cartitem {
+	padding: 20px 30px;
+	height: 120px;
+	display: flex;
+}
+
+.cartimage {
+	margin-right: 50px;
+}
+
+.cartdescription {
+	padding-top: 10px;
+  	margin-right: 45px;
+  	width: 220px;
+    display: block;
+    color: #FF1493;
+    margin-bottom: 5px;
+    font-size: 16.5px;
+    font-family: helvetica-bold; 
+}
+
+.wishlistdescription {
+	padding-top: 10px;
+  	margin-right: 45px;
+  	width: 220px;
+    display: block;
+    color: #FF1493;
+    margin-bottom: 5px;
+    font-size: 16.5px;
+    font-family: helvetica-bold; 
+}
+
+#bdaycake-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#vegan-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#bacon-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#carrotcake-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#cranberry-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#pumpkinspice-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#original-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#walnut-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#buttermilk-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#rhubarb-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#exgf-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#lemon-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#buttermilk-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#bdaycake-quantity {
+	padding-top: 5px;
+  	margin-right: 10px;
+    border: none;
+    text-align: right;
+    width: 25px;
+    font-family: helvetica-bold;
+    font-size: 16px;
+    color: #FF1493;
+}
+
+#pumpkinspice-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#vegan-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#original-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#bacon-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#cranberry-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#bdaycake-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#exgf-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#bdaycake-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#carrotcake-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#walnut-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#buttermilk-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#rhubarb-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#exgf-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+#lemon-total {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
+
+.totalcost {
+	padding-top: 20px;
+  	margin-right: -60px;
+}
+
+.totalcost span {
+	color: #FFB6C1;
+	font-family: helvetica-bold;
+	margin-right: 10px;
+	margin-left: 600px;
+}
+
+#grand-total {
+  text-align: center;
+  font-size: 30px;
+  font-family: helvetica-bold;
+  color: #FF1493;
+}
