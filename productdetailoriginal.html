@@ -55,38 +55,34 @@
   			<button type="button" onclick="saveClickWishlist('original')"style="margin-top:-2; float:left;color:#FFB6C1;text-align:center;padding:-5px;text-decoration:none;font-size:15px;width:100px;">Wishlist</button>
 		</div>
 			
-		<div class="carousel">
-    <div class="carousel-inner">
-        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-        <div class="carousel-item">
-            <img src="images/original.png" style="width:325px;height:325px;" alt="" /></a>
-        </div>
-        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-        <div class="carousel-item">
-            <img src="images/original.png" style="width:325px;height:325px;" alt="" /></a>
-        </div>
-        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-        <div class="carousel-item">
-            <img src="images/original.png" style="width:325px;height:325px;" alt="" /></a>
-        </div>
-        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-        <label for="carousel-2" class="carousel-control next control-1">›</label>
-        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-        <label for="carousel-3" class="carousel-control next control-2">›</label>
-        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-        <label for="carousel-1" class="carousel-control next control-3">›</label>
-        <ol class="carousel-indicators">
-            <li>
-                <label for="carousel-1" class="carousel-bullet">•</label>
-            </li>
-            <li>
-                <label for="carousel-2" class="carousel-bullet">•</label>
-            </li>
-            <li>
-                <label for="carousel-3" class="carousel-bullet">•</label>
-            </li>
-        </ol>
+		<div class="carousel-wrapper">
+  
+  <span id="item-1"></span>
+  <span id="item-2"></span>
+  <span id="item-3"></span>
+  
+  <div class="carousel-item item-1">
+  <h2>Item 1</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat. Maecenas lacus nunc, imperdiet sed mi et, finibus suscipit mi.</p>
+  <a class="arrow arrow-prev" href="#item-3"></a>
+  <a class="arrow arrow-next" href="#item-2"></a>
     </div>
+  
+  <div class="carousel-item item-2">
+    <h2>Item 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+    <a class="arrow arrow-prev" href="#item-1"></a>
+    <a class="arrow arrow-next" href="#item-3"></a>
+  </div>
+  
+  <div class="carousel-item item-3">
+    <h2>Item 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+    <a class="arrow arrow-prev" href="#item-2"></a>
+    <a class="arrow arrow-next" href="#item-1"></a>
+  </div>
+  
+  
 </div>
 	</div>
 	</body>
