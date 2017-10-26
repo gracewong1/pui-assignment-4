@@ -77,7 +77,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailcranberry.html'><img src='Images/cranberry.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailcranberry.html'><img src='Images/cranberry.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML = '<span class="cartdescription">&nbspThe \"Crank It\" Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='cranberry-increase' onclick=\"increase('cranberry')\">+</button>";
 
@@ -111,7 +111,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailrhubarb.html'><img src='Images/strawberryrhubarb.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailrhubarb.html'><img src='Images/strawberryrhubarb.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe Berry Bland Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='rhubarb-increase' onclick=\"increase('rhubarb')\">+</button>";
 
@@ -145,7 +145,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailcarrotcake.html'><img src='Images/carrotcake.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailcarrotcake.html'><img src='Images/carrotcake.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe Diamond Carrot Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='carrotcake-increase' onclick=\"increase('carrotcake')\">+</button>";
 
@@ -179,7 +179,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailgf.html'><img src='Images/glutenfree.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailgf.html'><img src='Images/glutenfree.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe B-unwanted Ex-GF</span>';
       cellIncrease.innerHTML = "<button type='button' id='exgf-increase' onclick=\"increase('exgf')\">+</button>";
 
@@ -213,7 +213,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailvegan.html'><img src='Images/vegan.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailvegan.html'><img src='Images/vegan.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspOnly The Veganning Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='vegan-increase' onclick=\"increase('vegan')\">+</button>";
 
@@ -247,7 +247,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailbuttermilk.html'><img src='Images/buttermilk.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailbuttermilk.html'><img src='Images/buttermilk.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe Butter n Milk Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='buttermilk-increase' onclick=\"increase('buttermilk')\">+</button>";
 
@@ -281,7 +281,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetaillemon.html'><img src='Images/lemonlavendar.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetaillemon.html'><img src='Images/lemonlavendar.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe Sweet n Sour Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='lemon-increase' onclick=\"increase('lemon')\">+</button>";
 
@@ -315,7 +315,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailwalnut.html'><img src='Images/walnut.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailwalnut.html'><img src='Images/walnut.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe Nutty Hunny Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='walnut-increase' onclick=\"increase('walnut')\">+</button>";
 
@@ -349,7 +349,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailbacon.html'><img src='Images/bacon.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailbacon.html'><img src='Images/bacon.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe Baconator Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='bacon-increase' onclick=\"increase('bacon')\">+</button>";
 
@@ -382,7 +382,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailpumpkinspice.html'><img src='Images/pumpkinspice.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailpumpkinspice.html'><img src='Images/pumpkinspice.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe Pumpkin Spice Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='pumpkinspice-increase' onclick=\"increase('pumpkinspice')\">+</button>";
 
@@ -415,7 +415,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<a href='productdetailbdaycake.html'><img src='Images/birthdaycake.png' height=100 width=100>";
+      cellImg.innerHTML = "<a href='productdetailbdaycake.html'><img src='Images/birthdaycake.png' height=100 width=100 alt=\"\">";
       cellDescription.innerHTML = '<span class="cartdescription">&nbspThe Birthday Babe Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='bdaycake-increase' onclick=\"increase('bdaycake')\">+</button>";
 
