@@ -29,7 +29,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailcranberry.html'><img src='Images/cranberry.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "><img src='Images/cranberry.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The \"Crank it\" Bun</span>';
       
        //delete on click
@@ -48,7 +48,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailbuttermilk.html'><img src='Images/buttermilk.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/buttermilk.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The Butter n Milk Bun</span>';
       
       //delete on click
@@ -66,7 +66,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailorignial.html'><img src='Images/original.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/original.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The 100% Original Bun</span>';
       
       //delete on click
@@ -84,7 +84,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailvegan.html'><img src='Images/vegan.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/vegan.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  Only the Veganning Bun</span>';
       
       //delete on click
@@ -102,7 +102,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailbacon.html'><img src='Images/bacon.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/bacon.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The Baconator Bun</span>';
       
       //delete on click
@@ -120,7 +120,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailcarrotcake.html'><img src='Images/carrotcake.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/carrotcake.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The Diamond Carrot Bun</span>';
       
       //delete on click
@@ -138,7 +138,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailbdaycake.html'><img src='Images/birthdaycake.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/birthdaycake.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The Birthday Babe Bun</span>';
       
       //delete on click
@@ -156,7 +156,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailgf.html'><img src='Images/glutenfree.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/glutenfree.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The B-unwanted Ex-GF</span>';
       
       //delete on click
@@ -174,7 +174,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailcaramel.html'><img src='Images/caramelpecan.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/caramelpecan.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The Nutty Hubby Bun</span>';
       
       //delete on click
@@ -192,7 +192,7 @@ function createProductTableWishlist(){
       var cellDeleteWishlist = row.insertCell(2);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailrhubarb.html'><img src='Images/rhubarb.png' height=100 width=100 alt=\"\">";
+      cellImgWishlist.innerHTML = "<img src='Images/rhubarb.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">  The Nutty Hubby Bun</span>';
       
       //delete on click
