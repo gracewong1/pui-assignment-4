@@ -17,7 +17,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("cranberryWished")) {
+   if (sessionStorage.getItem("cranberryWished")) && Number(sessionStorage.getItem("cranberryWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -36,7 +36,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("buttermilkWished")) {
+   if (sessionStorage.getItem("buttermilkWished")) && Number(sessionStorage.getItem("buttermilkWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -54,7 +54,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("originalWished")) {
+   if (sessionStorage.getItem("originalWished")) && Number(sessionStorage.getItem("originalWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -72,7 +72,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("veganWished")) {
+   if (sessionStorage.getItem("veganWished")) && Number(sessionStorage.getItem("veganWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -90,7 +90,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("baconWished")) {
+   if (sessionStorage.getItem("baconWished")) && Number(sessionStorage.getItem("baconWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -108,7 +108,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("carrotcakeWished")) {
+   if (sessionStorage.getItem("carrotcakeWished")) && Number(sessionStorage.getItem("carrotcakeWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -126,7 +126,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("bdaycakeWished")) {
+   if (sessionStorage.getItem("bdaycakeWished")) && Number(sessionStorage.getItem("bdaycakeWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -144,7 +144,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("exgfWished")) {
+   if (sessionStorage.getItem("exgfWished")) && Number(sessionStorage.getItem("exgfWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -162,7 +162,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("caramelWished")) {
+   if (sessionStorage.getItem("caramelWished")) && Number(sessionStorage.getItem("caramelWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
@@ -180,7 +180,7 @@ function createProductTableWishlist(){
    }
    
    //check the sessionStorage for each product
-   if (sessionStorage.getItem("rhubarbWished")) {
+   if (sessionStorage.getItem("rhubarbWished")) && Number(sessionStorage.getItem("rhubarbWished")) > 0{
       //add new row      
       var row=orderedProductsTblBodyWishlist.insertRow();
       
