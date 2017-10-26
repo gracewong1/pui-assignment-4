@@ -50,7 +50,7 @@ function createProductTableWishlist(){
       var cellDescriptionWishlist = row.insertCell(1);
       
       //fill cells with values
-      cellImgWishlist.innerHTML = "<a href='productdetailorignial.html'><img src='images/original.png' height=100 width=100>";
+      cellImgWishlist.innerHTML = "<a href='productdetailorignial.html'><img src='images/original.png' height=100 width=100 alt=\"\">";
       cellDescriptionWishlist.innerHTML = '<span class="wishlistdescription">&nbsp&nbspThe 100% Original Bun</span>';
    }
    
