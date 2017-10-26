@@ -1,12 +1,8 @@
-function saveWish(name) {    
-   var name = name + "Wished"; 
-      
+function saveWish(name) {     
     sessionStorage.setItem(name, 1);
    }
    
 function deleteWish(name) {
-   var dataName = name + "Wished";
-   
     sessionStorage.setItem(name, 0); // use 0 to indicate deleted
    
    createProductTableWishlist();
