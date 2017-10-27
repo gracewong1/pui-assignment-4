@@ -44,7 +44,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
 
       //fill cells with values
-      cellImg.innerHTML = "<img src='Images/caramelpecan.png' height=100 width=100 alt=\"\">";
+      cellImg.innerHTML = "<img src='Images/caramelpecan.png' height=10 width=10 alt=\"\">";
       cellDescription.innerHTML = '<span class="cartdescription">&nbspThe Nutty Hubby Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='caramel-increase' onclick=\"increase('caramel')\">+</button>";
 
@@ -77,7 +77,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<img src='Images/cranberry.png' height=100 width=100 alt=\"\">";
+      cellImg.innerHTML = "<a href='productdetailcranberry'><img src='Images/cranberry.png' height=10 width=10 alt=\"\">";
       cellDescription.innerHTML = '<span class="cartdescription">&nbspThe \"Crank It\" Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='cranberry-increase' onclick=\"increase('cranberry')\">+</button>";
 
