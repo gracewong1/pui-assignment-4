@@ -111,7 +111,7 @@ function createProductTable(){
       var cellDelete = row.insertCell(6);
       
       //fill cells with values
-      cellImg.innerHTML = "<img src='Images/strawberryrhubarb.png' height=100 width=100 alt=\"\">";
+      cellImg.innerHTML = "<a href='productdetailrhubarb'><img src='Images/strawberryrhubarb.png' height='100' width='100'>";
       cellDescription.innerHTML ='<span class="cartdescription">&nbspThe Berry Bland Bun</span>';
       cellIncrease.innerHTML = "<button type='button' id='rhubarb-increase' onclick=\"increase('rhubarb')\">+</button>";
 
